@@ -1,6 +1,8 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задача 1");
+        System.out.println("\nЗадача 1");
 
         int[] weid = new int[3];
         weid[0] = 1;
@@ -20,7 +22,7 @@ public class Main {
         }
         System.out.println("Длина массива: " + wei.length);
 
-        System.out.println("Задача 2");
+        System.out.println("\nЗадача 2");
 
         int[] weidNew = new int[3];
         weidNew[0] = 1;
@@ -52,9 +54,8 @@ public class Main {
                 System.out.print(",");
             }
         }
-        System.out.println();
 
-        System.out.println("Задача 3");
+        System.out.println("\nЗадача 3");
 
         int[] weidw = new int[3];
         weidw[0] = 1;
@@ -87,17 +88,19 @@ public class Main {
             }
         }
 
-        System.out.println("Задача 4");
+
+        System.out.println("\nЗадача 4");
 
         int[] arr = {1, 2, 3};
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
             if (arr[i] % 2 != 0) {
                 arr[i] = arr[i] + 1;
+            }
+        }
                 System.out.println(Arrays.toString(arr));
             }
 
 
         }
-    }
-}
+
+
